@@ -170,3 +170,62 @@ body {
     color: #0066cc;
     font-weight: bold;
 }
+/* Contact Section */
+.contact {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.contact h1 {
+    text-align: center;
+    color: #004080;
+}
+
+.contact form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #002a5e;
+}
+
+.feedback {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.feedback.success {
+    color: green;
+}
+
+.feedback.error {
+    color: red;
+}
