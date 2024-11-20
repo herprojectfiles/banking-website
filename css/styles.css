@@ -229,3 +229,35 @@ body {
 .feedback.error {
     color: red;
 }
+/* FAQ Section */
+.faq {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.faq h1 {
+    text-align: center;
+    color: #004080;
+}
+
+.faq-item h2 {
+    cursor: pointer;
+    color: #004080;
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+.faq-item h2.active {
+    color: #0066cc;
+}
+
+.faq-item p {
+    margin-left: 15px;
+    line-height: 1.6;
+    color: #333;
+}
