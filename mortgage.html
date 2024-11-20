@@ -11,10 +11,10 @@
 <body>
     <!-- Header -->
     <header>
-        <nav>
+        <nav role="navigation">
             <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="mortgage.html">Mortgage Calculator</a></li>
+                <li><a href="mortgage.html" aria-current="page">Mortgage Calculator</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="faq.html">FAQ</a></li>
@@ -26,21 +26,22 @@
     <!-- Mortgage Calculator Section -->
     <section class="calculator">
         <h1>Mortgage Calculator</h1>
-        <form id="mortgage-form">
+        <form id="mortgage-form" aria-labelledby="mortgage-form-title">
+            <h2 id="mortgage-form-title" class="sr-only">Mortgage Calculator Form</h2>
             <label for="loanAmount">Loan Amount (£):</label>
-            <input type="number" id="loanAmount" required>
+            <input type="number" id="loanAmount" required aria-required="true" aria-label="Enter loan amount">
 
             <label for="loanTerm">Loan Term (years):</label>
-            <input type="number" id="loanTerm" required>
+            <input type="number" id="loanTerm" required aria-required="true" aria-label="Enter loan term in years">
 
             <label for="monthlyIncome">Monthly Income (£):</label>
-            <input type="number" id="monthlyIncome" required>
+            <input type="number" id="monthlyIncome" required aria-required="true" aria-label="Enter monthly income">
 
-            <button type="submit">Calculate</button>
+            <button type="submit" aria-label="Calculate mortgage payment">Calculate</button>
         </form>
 
-        <!-- Output -->
-        <div id="output" class="output">
+        <!-- Results Section -->
+        <div id="output" class="output" aria-live="polite">
             <h2>Results:</h2>
             <p id="monthlyPayment"></p>
             <p id="eligibility"></p>
