@@ -128,3 +128,45 @@ body {
 .mission-values li {
     margin-bottom: 10px;
 }
+/* Services Section */
+.services {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.services h1 {
+    text-align: center;
+    color: #004080;
+}
+
+.service-item {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.service-item h2 {
+    font-size: 1.4em;
+    color: #004080;
+    margin: 0;
+}
+
+.service-item h2:hover {
+    text-decoration: underline;
+}
+
+.service-item p {
+    margin: 10px 0 0 10px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Expanded Visual Indicator */
+.service-item h2.expanded {
+    color: #0066cc;
+    font-weight: bold;
+}
