@@ -5,20 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - XYZ Bank</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/contact.js" defer></script>
 </head>
 <body>
     <!-- Header -->
     <header>
-        <nav>
+        <nav role="navigation">
             <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="mortgage.html">Mortgage Calculator</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="contact.html" aria-current="page">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -26,23 +24,23 @@
     <!-- Contact Form Section -->
     <section class="contact">
         <h1>Contact Us</h1>
-        <form id="contact-form">
+        <form id="contact-form" aria-labelledby="contact-form-title">
+            <h2 id="contact-form-title" class="sr-only">Contact Us Form</h2>
+
             <label for="name">Name:</label>
-            <input type="text" id="name" placeholder="Enter your name" required>
+            <input type="text" id="name" aria-label="Your full name" required>
 
             <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Enter your email" required>
+            <input type="email" id="email" aria-label="Your email address" required>
 
             <label for="subject">Subject:</label>
-            <input type="text" id="subject" placeholder="Enter subject" required>
+            <input type="text" id="subject" aria-label="Subject of your message" required>
 
             <label for="message">Message:</label>
-            <textarea id="message" placeholder="Enter your message" rows="5" required></textarea>
+            <textarea id="message" aria-label="Your message" required></textarea>
 
-            <button type="submit">Send Message</button>
+            <button type="submit" aria-label="Send your message">Send Message</button>
         </form>
-
-        <div id="form-feedback" class="feedback"></div>
     </section>
 
     <!-- Footer -->
