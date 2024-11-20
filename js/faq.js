@@ -8,5 +8,7 @@ $(document).ready(() => {
     $('.faq-item h2').on('click', function () {
         $(this).next('p').slideToggle(300);
         $(this).toggleClass('active');
+        const expanded = $(this).attr('aria-expanded') === 'true';
+        $(this).attr('aria-expanded', !expanded);
     });
 });
