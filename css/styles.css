@@ -93,3 +93,38 @@ body {
 .output p {
     margin: 5px 0;
 }
+/* About Us Section */
+.about-us {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.about-us h1 {
+    text-align: center;
+    color: #004080;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.mission-values h2 {
+    color: #004080;
+    margin-top: 20px;
+}
+
+.mission-values ul {
+    list-style: disc;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+.mission-values li {
+    margin-bottom: 10px;
+}
