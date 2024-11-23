@@ -5,3 +5,4 @@ On the mortgage page, visitors/customers can input data in the available spaces 
 There are other pages like the About Us, Services, FAQ, and Contact Us, which also add up to the website, helping visitors/customers find relevant information
 The entire website is responsive, hence both mobile and desktop users can use the website, however, deskop/tablet is recommended
 The files in the ZIP comprises HTML, CSS, and JavaScript, however, interactive details were added using jQuery animations
+Also, ARIA roles were implemeted
