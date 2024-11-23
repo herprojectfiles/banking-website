@@ -25,14 +25,14 @@ body {
 
 .hero {
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/hero-image.png') no-repeat center center/cover;
-    color: blue;
+    color: white;
     text-align: center;
     padding: 300px 40px;
 }
 
 .hero .btn {
     background-color: #004080;
-    color: white;
+    color: blue;
     padding: 10px 20px;
     text-decoration: none;
     font-size: 1.2em;
