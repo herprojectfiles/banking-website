@@ -25,7 +25,7 @@ body {
 
 .hero {
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/hero-image.png') no-repeat center center/cover;
-    color: white;
+    color: blue;
     text-align: center;
     padding: 300px 40px;
 }
