@@ -8,12 +8,12 @@ body {
 .navbar {
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color: white;
     padding: 10px;
 }
 
 .navbar li {
-    margin: 30 30px;
+    margin: 0 30px;
 }
 
 .navbar a {
