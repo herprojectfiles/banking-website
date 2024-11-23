@@ -99,7 +99,7 @@ body {
     max-width: 600px;
     margin: 40px auto;
     padding: 40px 300px;
-    background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background-3.png') no-repeat center center/cover;
+    background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background-4.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: left;
@@ -163,7 +163,7 @@ body {
 .service-item p {
     margin: 10px 0 0 10px;
     line-height: 1.6;
-    color: #333;
+    color: black;
 }
 
 /* Expanded Visual Indicator */
@@ -235,7 +235,7 @@ body {
     max-width: 600px;
     margin: 40px auto;
     padding: 40px 300px;
-    background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background-second.png') no-repeat center center/cover;
+    background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background-5.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: left;
@@ -243,7 +243,7 @@ body {
 
 .faq h1 {
     text-align: center;
-    color: #004080;
+    color: black;
 }
 
 .faq-item h2 {
@@ -260,5 +260,5 @@ body {
 .faq-item p {
     margin-left: 15px;
     line-height: 1.6;
-    color: #333;
+    color: black;
 }
