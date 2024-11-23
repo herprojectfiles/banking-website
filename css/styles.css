@@ -157,7 +157,7 @@ body {
 }
 
 .service-item h2:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .service-item p {
