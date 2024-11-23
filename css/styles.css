@@ -18,13 +18,19 @@ body {
 
 .navbar a {
     color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar hover {
+    color: white;
     text-decoration: underline;
     font-weight: bold;
 }
 
 .hero {
-    background: url('images/banking-website-hero.png') no-repeat center center/cover;
-    color: blue;
+    background: url('https://www.goambank.com/Portals/0/Images/CoreBusinessChecking%20750x480.jpg?ver=o5FPet7mceZ3KlhtZ6RZXA%3D%3D') no-repeat center center/cover;
+    color: white;
     text-align: center;
     padding: 100px 20px;
 }
