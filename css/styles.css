@@ -40,17 +40,10 @@ footer .r {
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/hero004.png') no-repeat center center/cover;
     color: white;
     text-align: center;
-    padding: 20vh 25px; /* Adjusted for better mobile responsiveness */
+    padding: 220px 25px;
 }
 
-.hero h1 {
-    font-size: 7vw; /* Scales with viewport */
-}
-
-.hero h3 {
-    font-size: 5vw; /* Scales with viewport */
-}
-
+/* Button Styles */
 .hero .btn {
     background-color: #004080;
     color: white;
@@ -62,9 +55,9 @@ footer .r {
 
 /* Calculator Section */
 .calculator {
-    max-width: 100%;
+    max-width: 600px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 40px 30px;
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/hero005.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -74,7 +67,6 @@ footer .r {
 .calculator h1 {
     text-align: center;
     color: black;
-    font-size: 4vw; /* Responsive font size */
 }
 
 .calculator form label,
@@ -120,9 +112,9 @@ footer .r {
 
 /* About Us Section */
 .about-us {
-    max-width: 100%;
+    max-width: 600px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 40px 30px;
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background-4.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -132,14 +124,33 @@ footer .r {
 .about-us h1 {
     text-align: center;
     color: black;
-    font-size: 4vw; /* Responsive font size */
 }
 
-/* Service Section */
+.about-content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.mission-values h2 {
+    color: #004080;
+    margin-top: 20px;
+}
+
+.mission-values ul {
+    list-style: disc;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+.mission-values li {
+    margin-bottom: 10px;
+}
+
+/* Services Section */
 .services {
-    max-width: 100%;
+    max-width: 600px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 40px 30px;
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background-third.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -149,26 +160,34 @@ footer .r {
 .services h1 {
     text-align: center;
     color: black;
-    font-size: 4vw; /* Responsive font size */
+}
+
+.service-item {
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .service-item h2 {
-    font-size: 1.6em;
+    font-size: 1.4em;
     color: #004080;
     margin: 0;
 }
 
+.service-item h2:hover {
+    text-decoration: none;
+}
+
 .service-item p {
-    margin: 10px 0;
+    margin: 10px 0 0 10px;
     line-height: 1.6;
     color: black;
 }
 
 /* Contact Section */
 .contact {
-    max-width: 100%;
+    max-width: 600px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 40px 30px;
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background-1.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -178,7 +197,6 @@ footer .r {
 .contact h1 {
     text-align: center;
     color: black;
-    font-size: 4vw; /* Responsive font size */
 }
 
 .contact form label {
@@ -227,9 +245,9 @@ footer .r {
 
 /* FAQ Section */
 .faq {
-    max-width: 100%;
+    max-width: 600px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 40px 30px;
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/hero006.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -239,13 +257,12 @@ footer .r {
 .faq h1 {
     text-align: center;
     color: black;
-    font-size: 4vw; /* Responsive font size */
 }
 
 .faq-item h2 {
     cursor: pointer;
     color: #004080;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 15px 0;
 }
 
@@ -261,7 +278,6 @@ footer .r {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    /* Navbar */
     .navbar {
         flex-direction: column;
         align-items: center;
@@ -271,43 +287,20 @@ footer .r {
         margin: 10px 0;
     }
 
-    /* Hero Section */
     .hero {
-        padding: 15vh 20px;
+        padding: 180px 20px;
     }
 
-    .hero h1 {
-        font-size: 8vw;
-    }
-
-    .hero h3 {
-        font-size: 6vw;
-    }
-
-    .navbar li {
-        margin: 15px 0;
-    }
-
-    /* Form and Containers */
     .calculator, .about-us, .services, .contact, .faq {
-        padding: 20px 10px;
+        padding: 20px 20px;
         max-width: 90%;
     }
 
-    .calculator h1, .about-us h1, .services h1, .contact h1, .faq h1 {
-        font-size: 5vw;
+    .service-item h2 {
+        font-size: 1em;
     }
 
     .output p {
-        font-size: 5vw;
-    }
-
-    .service-item h2 {
-        font-size: 1.4em;
-    }
-
-    .faq-item h2 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
-
