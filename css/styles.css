@@ -24,7 +24,7 @@ body {
 
 .hero {
     background: url('images/banking-website-hero.png') no-repeat center center/cover;
-    color: white;
+    color: blue;
     text-align: center;
     padding: 100px 20px;
 }
