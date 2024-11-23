@@ -43,7 +43,7 @@ body {
     max-width: 600px;
     margin: 40px auto;
     padding: 20px;
-    background: #f9f9f9;
+    background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: left;
@@ -99,7 +99,7 @@ body {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: left;
@@ -134,7 +134,7 @@ body {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: left;
@@ -176,7 +176,7 @@ body {
     max-width: 600px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: left;
@@ -235,7 +235,7 @@ body {
     max-width: 600px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: left;
