@@ -40,7 +40,7 @@ body {
 }
 /* Calculator Section */
 .calculator {
-    max-width: 600px;
+    max-width: 800px;
     margin: 40px auto;
     padding: 40px 300px;
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background.png') no-repeat center center/cover;
@@ -98,7 +98,7 @@ body {
 .about-us {
     max-width: 800px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 40px 300px;
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -133,7 +133,7 @@ body {
 .services {
     max-width: 800px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 40px 300px;
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -173,9 +173,9 @@ body {
 }
 /* Contact Section */
 .contact {
-    max-width: 600px;
+    max-width: 800px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 40px 300px;
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -232,9 +232,9 @@ body {
 }
 /* FAQ Section */
 .faq {
-    max-width: 600px;
+    max-width: 800px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 40px 300px;
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
