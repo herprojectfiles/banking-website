@@ -99,7 +99,7 @@ body {
     max-width: 600px;
     margin: 40px auto;
     padding: 40px 300px;
-    background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background-fourth.png') no-repeat center center/cover;
+    background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background-2.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: left;
@@ -107,7 +107,7 @@ body {
 
 .about-us h1 {
     text-align: center;
-    color: #004080;
+    color: black;
 }
 
 .about-content p {
@@ -135,7 +135,6 @@ body {
     margin: 40px auto;
     padding: 40px 300px;
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background-third.png') no-repeat center center/cover;
-    opacity: 0.5;
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: left;
@@ -143,7 +142,7 @@ body {
 
 .services h1 {
     text-align: center;
-    color: #004080;
+    color: black;
 }
 
 .service-item {
