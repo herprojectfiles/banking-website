@@ -9,11 +9,11 @@ body {
     display: flex;
     justify-content: center;
     background-color: #004080;
-    padding: 30px;
+    padding: 10px;
 }
 
 .navbar li {
-    margin: 0 20px;
+    margin: 0 0px;
 }
 
 .navbar a {
