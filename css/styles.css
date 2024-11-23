@@ -12,6 +12,7 @@ body {
     background-color: white;
     padding: 10px;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .navbar li {
@@ -24,15 +25,28 @@ body {
     font-weight: bold;
 }
 
-footer {
-    padding: 20px;
-    background-color: #004080;
-    color: white;
-    text-align: center;
+/* Responsive Navigation - Mobile Menu */
+.navbar .menu-icon {
+    display: none;
+    font-size: 1.5em;
+    color: #004080;
+    cursor: pointer;
 }
 
-footer .r {
-    margin: 0;
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* Hero Section */
@@ -40,10 +54,17 @@ footer .r {
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/hero004.png') no-repeat center center/cover;
     color: white;
     text-align: center;
-    padding: 220px 25px;
+    padding: 15vh 25px; /* Adjusted for better mobile responsiveness */
 }
 
-/* Button Styles */
+.hero h1 {
+    font-size: 4vw;
+}
+
+.hero h3 {
+    font-size: 3vw;
+}
+
 .hero .btn {
     background-color: #004080;
     color: white;
@@ -55,9 +76,9 @@ footer .r {
 
 /* Calculator Section */
 .calculator {
-    max-width: 600px;
+    max-width: 100%;
     margin: 40px auto;
-    padding: 40px 30px;
+    padding: 20px;
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/hero005.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -67,6 +88,7 @@ footer .r {
 .calculator h1 {
     text-align: center;
     color: black;
+    font-size: 3vw;
 }
 
 .calculator form label,
@@ -112,9 +134,9 @@ footer .r {
 
 /* About Us Section */
 .about-us {
-    max-width: 600px;
+    max-width: 100%;
     margin: 40px auto;
-    padding: 40px 30px;
+    padding: 20px;
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background-4.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -124,33 +146,14 @@ footer .r {
 .about-us h1 {
     text-align: center;
     color: black;
+    font-size: 3vw;
 }
 
-.about-content p {
-    margin-bottom: 15px;
-    line-height: 1.6;
-}
-
-.mission-values h2 {
-    color: #004080;
-    margin-top: 20px;
-}
-
-.mission-values ul {
-    list-style: disc;
-    margin-left: 20px;
-    line-height: 1.6;
-}
-
-.mission-values li {
-    margin-bottom: 10px;
-}
-
-/* Services Section */
+/* Service Section */
 .services {
-    max-width: 600px;
+    max-width: 100%;
     margin: 40px auto;
-    padding: 40px 30px;
+    padding: 20px;
     background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background-third.png') no-repeat center center/cover;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -160,11 +163,7 @@ footer .r {
 .services h1 {
     text-align: center;
     color: black;
-}
-
-.service-item {
-    margin-bottom: 20px;
-    cursor: pointer;
+    font-size: 3vw;
 }
 
 .service-item h2 {
@@ -173,134 +172,58 @@ footer .r {
     margin: 0;
 }
 
-.service-item h2:hover {
-    text-decoration: none;
-}
-
 .service-item p {
-    margin: 10px 0 0 10px;
+    margin: 10px 0;
     line-height: 1.6;
     color: black;
 }
 
-/* Contact Section */
-.contact {
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 40px 30px;
-    background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/bank-background-1.png') no-repeat center center/cover;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    text-align: left;
-}
-
-.contact h1 {
-    text-align: center;
-    color: black;
-}
-
-.contact form label {
-    display: block;
-    margin-top: 10px;
-}
-
-.contact form input,
-.contact form textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.contact form button {
-    width: 100%;
-    padding: 10px;
-    background-color: #004080;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-}
-
-.contact form button:hover {
-    background-color: #002a5e;
-}
-
-.feedback {
-    margin-top: 15px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.feedback.success {
-    color: green;
-}
-
-.feedback.error {
-    color: red;
-}
-
-/* FAQ Section */
-.faq {
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 40px 30px;
-    background: url('https://raw.githubusercontent.com/herprojectfiles/banking-website/refs/heads/main/images/hero006.png') no-repeat center center/cover;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    text-align: left;
-}
-
-.faq h1 {
-    text-align: center;
-    color: black;
-}
-
-.faq-item h2 {
-    cursor: pointer;
-    color: #004080;
-    font-size: 1.2em;
-    margin: 15px 0;
-}
-
-.faq-item h2.active {
-    color: #0066cc;
-}
-
-.faq-item p {
-    margin-left: 15px;
-    line-height: 1.6;
-    color: black;
-}
-
-/* Responsive Design */
+/* Mobile Adjustments */
 @media (max-width: 768px) {
-    .navbar {
+    /* Navbar: Mobile */
+    .navbar ul {
+        display: none; /* Hide default navbar */
         flex-direction: column;
-        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar .menu-icon {
+        display: block; /* Display hamburger icon */
+    }
+
+    .navbar ul.active {
+        display: flex; /* Show navbar when menu is active */
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 10vh 20px; /* Adjusted padding for mobile */
+    }
+
+    .hero h1 {
+        font-size: 6vw;
+    }
+
+    .hero h3 {
+        font-size: 4vw;
     }
 
     .navbar li {
-        margin: 10px 0;
+        margin: 15px 0;
     }
 
-    .hero {
-        padding: 180px 20px;
+    /* Form and Containers */
+    .calculator, .about-us, .services {
+        padding: 20px 10px;
     }
 
-    .calculator, .about-us, .services, .contact, .faq {
-        padding: 20px 20px;
-        max-width: 90%;
-    }
-
-    .service-item h2 {
-        font-size: 1.2em;
+    .calculator h1, .about-us h1, .services h1 {
+        font-size: 4vw;
     }
 
     .output p {
-        font-size: 1.1em;
+        font-size: 4vw;
     }
 }
+
